@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000;
+    color: #fff;
+}
+.main-button{
+    background-color: red;
+    transition: all 4s;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+.main-button:hover{
+    background-color: #c11119;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+
+    position: absolute;
+    top: 0;
+    left: 10%;
+
+    background-color: transparent;
+    color: #fff;
+}
+.logo{
+    width: 200px;
+}
+.right-nav{
+    display: flex;
+    align-items: center;
+}
+.select-box{
+    border: 1px solid #fff;
+    padding: 8px;
+    border-radius: 50px;
+}
+.select-box select{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.login-btn{
+    background-color: red;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    cursor: pointer ;
+}
+
+#hero{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("images/IN-en-20241104-TRIFECTA-perspective_55263ea2-af7f-40ed-9cf0-7029a9b9baf4_small.jpg");
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+#hero > div{
+    width: 40%;
+}
+#hero h1{
+    font-size: 60px;
+}
+.sub-title{
+    margin: 15px 0px;
+    font-size: 20px;
+}
+.email-box{
+    height: 50px;
+    margin-top: 30px;
+}
+.email-box input{
+    width: 70%;
+    height: 100%;
+}
+.email-box button{
+    width: 29%;
+    height: 100%;
+}
+
+
+
+#trending-now{
+    padding: 20px 50px;
+    background-color: black;
+    color: #fff;
+    margin: 5%;
+}
+.main-title{
+    font-size: 30px;
+}
+select option{
+    color: black;
+}
+.movies-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.movie{
+    flex-basis: 23%;
+    cursor: pointer;
+    transition: all .4s;
+    padding-top: 50px;
+    
+}
+
+.movie:hover{
+    transform: scale(1.1);
+}
+
+
+#join {
+    padding: 50px 100px;
+}
+.join-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+    
+}
+.join-card {
+    background: linear-gradient(149deg,#192247 0%,#210e17 96%);
+    flex-basis: 24%;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+
+    position: relative;
+    height: 300px;
+}
+.join-card p {
+    color: #ccc;
+    margin: 20px 0px;
+}
+.join-card img {
+    width: 80px;
+
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+#faq {
+    padding: 50px 100px;
+}
+.tab-wrapper{
+    margin: 30px 0px;
+}
+.accordion {
+    background-color: #2d2d2d;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+    transition: 0.4s;
+    margin: 5px;
+}
+.active,.accordion:hover {
+    background-color: #414141;
+} 
+/* .accordion:after{
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.active:after{
+    content: "\2212";
+}
+.panel{
+    padding: 0 18px;
+    background-color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+} */
+
+#membership{
+    padding: 20px 100px;
+    width: 60%;
+    margin: auto;
+}
+footer{
+     margin-top: 50px;
+     padding: 50px 100px;
+     gap: 10px;
+
+}
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.badge{
+    flex-basis: 24%;
+    margin-bottom: 50px;
+}
+.badge a {
+    display: block;
+    color: #fff;
+    margin-top: 20px;
+}
